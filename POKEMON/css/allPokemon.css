@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "titulo";
+    src: url(../fonts/Pokemon\ Hollow.ttf);
+}
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/fondo3.jpg"); 
+}
+
+#primero{
+  
+    margin-bottom: 55px;
+}
+
+h1{
+    color:#282C28;
+    padding: 15px;
+    font-family: "titulo";
+    font-size: 55px;
+    text-align: center;
+}
+
+h2{
+    font-family: "titulo";
+    margin-left: 450px;
+}
+ul{
+    background-color: rgba(245, 245, 220, 0.5);;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 85px;
+ 
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: "titulo";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;  
+}
+
+a:hover {
+    color: rgba(255, 0, 0, 0.5);  
+}
+
+
+#lista{
+    text-align: center;
+}
+
+#container{
+    border: 1px solid #000;
+    width: 250px;
+    margin-left: 420px;
+    border: 3px solid black;
+    background-color: #E5ECA8;
+    margin-top: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #DC5B3C;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -50px;
+    
+}
+
+#container p{
+    font-size: 25px;
+}
+
+#caracteristicas{
+    margin-top: 15px;
+    background-color: #EACCC5;
+    width: 305px;
+    margin-left: 800px;
+    margin-top: -355px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #DC5B3C;
+    border-radius: 15px;
+ 
+}
+
+#caracteristicas img{
+    border: 1px solid #000;
+    margin-left: 195px;
+    border-radius: 25px;
+    background-color: #DC5B3C;
+
+}
+
+#caracteristicas p{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+ 

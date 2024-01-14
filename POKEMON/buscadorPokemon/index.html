@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/buscaPokemon.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>buscadorPoke</title>
+</head>
+<body>
+    <div id = "principalContenedor">
+        <div id="primero">
+            <h1> Search Pokémon By API </h1>
+            <ul id="lista">
+                <li id="buscadorPoke"><a href="#">Search</a></li>
+                <li id="allpokemons"><a href="../allPokemon/index.html">See all</a></li>
+            </ul>
+        </div>
+
+        <div id="entrada">
+            <input type="text" placeholder="Write here a name..." name="text" class="input" id="texto">
+            <button class="btn" id="busca">Let's go</button>
+        </div>
+
+        <div id="container">
+        
+        </div>
+    </div>
+  
+    <script src="../localizacion.js"></script>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
